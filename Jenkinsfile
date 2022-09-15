@@ -7,6 +7,7 @@ pipeline {
                 sh 'python --version'
                 sh 'python hello.py'
 		sh 'cat /etc/os-release'
+		sh 'echo hello'
             }
         }
     }
